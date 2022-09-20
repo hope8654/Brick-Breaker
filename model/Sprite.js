@@ -1,8 +1,8 @@
 import Block from "./Block.js"
 
 class Sprite extends Block {
-    constructor(x, y, width, height, dx, dy) {
-        super(x, y, width, height, dx, dy)
+    constructor(x, y, width, height, color, dx, dy) {
+        super(x, y, width, height, color, dx, dy)
         this.dx = dx;
         this.dy = dy;
     }
